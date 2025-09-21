@@ -1,0 +1,157 @@
+{
+  "app": {
+    "name": "ZSnapr",
+    "description": "Screenshot and image processing tool by ZZBuAoYE",
+    "currentVersion": "1.0.2",
+    "latestVersion": "1.0.2",
+    "updateAvailable": false
+  },
+  "releases": [
+    {
+      "version": "1.0.2",
+      "releaseDate": "2025-09-21",
+      "type": "minor",
+      "status": "stable",
+      "downloadUrl": "https://github.com/ZZBuAoYE/ZSnapr/releases/tag/v1.0.2",
+      "fileSize": "27.8 MB",
+      "checksum": {
+        "sha256": "",
+        "md5": ""
+      },
+      "changelog": {
+        "added": [
+          "支持修改绑定按键功能",
+          "新增record快捷键功能",
+          "区域截图支持自定义拖动大小和挪动位置",
+          "支持设置全屏/窗口截图是否默认复制图片",
+          "美化关于页面",
+          "智能日志清理系统 - 自动管理日志文件，防止堆积",
+          "静默自动清理功能 - 启动和退出时自动清理，完全无感知",
+          "三种清理策略 - 保守、平衡、激进策略适应不同环境",
+          "日志清理命令行工具 - 支持手动清理和预览功能"
+        ],
+        "changed": [
+          "修改了Tab等控件样式",
+          "美化了界面，新加一些控件和功能",
+          "区域截图的样式更加合理和美观",
+          "优化menu的样式",
+          "优化工具栏图标和文字对齐 - 完美垂直居中对齐",
+          "大幅提升区域截图流畅性 - 帧率从~200提升到~1000 FPS",
+          "优化事件循环延迟 - 从5ms降低到1ms",
+          "改进渲染性能 - 智能区域更新，减少不必要重绘"
+        ],
+        "deprecated": [],
+        "removed": [],
+        "fixed": [
+          "修复页面可以无限向下滚动的问题",
+          "修复了进程分离导致的区域截图崩溃",
+          "修复区域截图导致的程序无限等待",
+          "修复区域截图复制按钮需要点击两次的问题",
+          "修复工具栏图标和文字对不齐的问题",
+          "优化区域截图选择框的响应性能",
+          "修复日志文件过多导致的性能问题"
+        ],
+        "security": [
+          "增强日志清理的安全保护机制",
+          "防止误删重要日志文件"
+        ]
+      },
+      "requirements": {
+        "os": ["Windows 10", "Windows 11"],
+        "architecture": ["x64"],
+        "minRam": "4GB",
+        "minStorage": "130MB"
+      },
+      "breaking": false,
+      "critical": false
+    },
+    {
+      "version": "1.0.1",
+      "releaseDate": "2025-09-20",
+      "type": "patch",
+      "status": "stable",
+      "downloadUrl": "https://github.com/ZZBuAoYE/ZSnapr/releases/tag/v1.0.1",
+      "fileSize": "26.2 MB",
+      "checksum": {
+        "sha256": "",
+        "md5": ""
+      },
+      "changelog": {
+        "added": [
+          "增加了托盘部分的功能",
+          "优化了项目架构 - Remake Directory"
+        ],
+        "changed": [
+          "矫正软件主界面的展示",
+          "矫正区域截图逻辑，默认自动复制，可选手动保存"
+        ],
+        "deprecated": [],
+        "removed": [],
+        "fixed": [
+          "修复了一些体验bug",
+          "修复了Qt's default DPI awareness context is DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2"
+        ],
+        "security": []
+      },
+      "requirements": {
+        "os": ["Windows 10", "Windows 11"],
+        "architecture": ["x64"],
+        "minRam": "4GB",
+        "minStorage": "120MB"
+      },
+      "breaking": false,
+      "critical": false
+    },
+    {
+      "version": "1.0.0",
+      "releaseDate": "2025-09-19",
+      "type": "major",
+      "status": "stable",
+      "downloadUrl": "https://github.com/ZZBuAoYE/ZSnapr/releases/tag/v1.0.0",
+      "fileSize": "25.6 MB",
+      "checksum": {
+        "sha256": "",
+        "md5": ""
+      },
+      "changelog": {
+        "added": [
+          "Initial Release - ZSnapr首次发布",
+          "Screenshot capture functionality - 截图捕获功能",
+          "Basic image editing tools - 基础图像编辑工具",
+          "Hotkey configuration system - 热键配置系统",
+          "Auto-update mechanism - 自动更新机制"
+        ],
+        "changed": [],
+        "deprecated": [],
+        "removed": [],
+        "fixed": [],
+        "security": []
+      },
+      "requirements": {
+        "os": ["Windows 10", "Windows 11"],
+        "architecture": ["x64"],
+        "minRam": "4GB",
+        "minStorage": "100MB"
+      },
+      "breaking": false,
+      "critical": false
+    }
+  ],
+  "updateSettings": {
+    "autoCheck": true,
+    "checkInterval": 86400,
+    "allowPrerelease": false,
+    "notifyUser": true,
+    "autoDownload": false,
+    "autoInstall": false
+  },
+  "metadata": {
+    "lastChecked": "2025-09-21T14:11:00+08:00",
+    "updateServer": "https://api.github.com/repos/ZZBuAoYE/ZSnapr/releases",
+    "backupUrl": "https://backup-server.com/ZSnapr/updates",
+    "format": "1.0",
+    "generatedAt": "2025-09-21T14:11:00+08:00",
+    "migratedFrom": "README/UpdateLog.txt",
+    "author": "ZZBuAoYE"
+  }
+}

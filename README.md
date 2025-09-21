@@ -23,7 +23,7 @@ ZSnapr is a software for convenient screenshots. It will support more features i
 > 5. Run `ZSnapr.py`
 ## Usage
 
-1.You Can set hot key for your slef
+1.You Can set hot key for your self
 
 ## License
 
